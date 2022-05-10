@@ -11,6 +11,7 @@ import Footer from './component/Footer/Footer'
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Blog from "./Pages/Blog"
+import Notfound from "./Pages/NotFoun";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
 
 
         <Route path="/blog" element={<Blog></Blog>}></Route>
+        <Route path="*" element={<Notfound></Notfound>}></Route>
 
 
       </Routes>
