@@ -1,0 +1,122 @@
+.Logo{
+    width: 100px;
+}
+.bg-nav{
+    background-color: #01a5c0;
+}
+.link{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: .4s;
+}
+.link:hover{
+    color: black;
+}
+.active-link{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    font-weight: 700;
+    color: black;
+}
+.active-link:hover{
+    color: black;
+}
+/* navbar style end */
+.banner{
+    background-color: #fff;
+}
+
+.check-out{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    grid-gap: 30px;
+}
+.checkout-item{
+    border: 10px;
+    box-shadow: 0px 0px 10px #ddd;
+    transition: all linear .4s;
+    background-color: #e1e1fd;
+}
+.checkout-item:hover{
+    background-color: tomato !important;
+}
+.check h3, button{
+    transition: all linear .4s;
+}
+.checkout-item:hover h3{
+    color: #fff;
+}
+.checkout-item:hover button{
+    color: #fff;
+}
+.title{
+    background-color: #e1e1fd;
+}
+.bg-chekout{
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+}
+
+/* check out page end */
+.contact{
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #ddd;
+}
+.google-map{
+    height: 500px;
+    border-radius: 16px;
+}
+
+/* about section */
+
+.my-goal{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    grid-gap: 30px;  
+}
+.goal-item{
+    border: 10px;
+    box-shadow: 0px 0px 5px #ddd;
+    transition: all linear .4s;
+}
+.goal-item:hover{
+    transform: translateY(-8px);
+}
+
+/* blog section */
+.answer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 30px
+}
+.ans{
+    border-left: 7px solid #9696f8;
+    background-color: #ebebff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bt-social{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #4f4fb7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* Responsive design */
+
+@media screen and (max-width: 500px) {
+    .answer, .my-goal, .check-out{
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    } 
+    .profile{
+        width: 100% !important;
+    }
+  }

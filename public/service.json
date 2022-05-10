@@ -1,7 +1,7 @@
 [
     {
       "id": "1",
-      "name": "Mind Balance & Relax Yoga",
+      "name": "Mind Balance & Relax",
       "title": "“Breath focus helps you concentrate on slow, deep breathing and aids you in disengaging from distracting thoughts and sensations.”",
       "subtitle": "Explore The Features",
       "type": "service",
@@ -9,7 +9,7 @@
     },
     {
       "id": "2",
-      "name": "Psycho Training",
+      "name": "Yoga For Fitness",
       "title": "“Breath focus helps you concentrate on slow, deep breathing and aids you in disengaging from distracting thoughts and sensations.”",
       "subtitle": "Ultimate trainings",
       "type": "service",
@@ -17,7 +17,7 @@
     },
     {
       "id": "3",
-      "name": "Self Defence",
+      "name": "Progressive Power Yoga",
       "title": "“Breath focus helps you concentrate on slow, deep breathing and aids you in disengaging from distracting thoughts and sensations.”",
       "subtitle": "Strong people",
       "type": "service",
@@ -29,11 +29,11 @@
       "title": "“To relax your mind, this yoga session was awesome, highly recommended”",
       "rating": [1,2,3,4,5],
       "type": "review",
-      "img": "https://i.ibb.co/sK4cyDg/team-1.jpg"
+      "img": "https://i.ibb.co/BGd6fL4/team-3.jpg"
     },
     {
       "id": "5",
-      "name": "Anik Shikder",
+      "name": "Jhon Due",
       "title": "“After you decide to start we will make sure you get the best fitness program.”",
       "rating": [1,2,3,4,5],
       "type": "review",
@@ -41,15 +41,15 @@
     },
     {
       "id": "6",
-      "name": "Rabin Haolader",
+      "name": "Mariana Anny",
       "title": "“We anywhere recommend gimmer for reaching your fitness goal.”",
       "rating": [1,2,3,4,5],
       "type": "review",
-      "img": "https://i.ibb.co/BGd6fL4/team-3.jpg"
+      "img": "https://i.ibb.co/sK4cyDg/team-1.jpg"
     },
     {
       "id": "7",
-      "name": "Self Defence",
+      "name": "Tuhin Khan",
       "title": "“We would  always recommend gimmer for reaching your fitness goal.”",
       "rating": [1,2,3,4,5],
       "type": "review",
