@@ -13,6 +13,13 @@ import Contact from "./Pages/Contact";
 import Blog from "./Pages/Blog"
 import Notfound from "./Pages/NotFoun";
 
+import Login from "./Pages/Login"
+import SignUp from "./Pages/SignUp"
+
+import RequireAuth from "./component/RequireAuth/RequireAuth"
+import CheckOut from "./Pages/CheckOut"
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 function App() {
   AOS.init();
@@ -26,9 +33,16 @@ function App() {
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
 
+        <Route path="/checkout" element={
+          <RequireAuth>
+            <CheckOut></CheckOut>
+          </RequireAuth>
+        }></Route>
 
         <Route path="/blog" element={<Blog></Blog>}></Route>
         <Route path="*" element={<Notfound></Notfound>}></Route>
+        <Route path="/login" element={<Login></Login>}></Route>
+        <Route path="/signup" element={<SignUp></SignUp>}></Route>
 
 
       </Routes>

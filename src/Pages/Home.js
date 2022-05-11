@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ClientReview from '../component/ClientReview/ClientReview';
 // import ClientReview from '../Component/ClientReview/ClientReview';
 // import Service from '../Component/Service/Service';
 
-import ClientReview from '../component/ClientReview/ClientReview'
+// import ClientReview from '../component/ClientReview/ClientReview<FontAwesomeIcon icon="fa-brands fa-facebook-f" />'
 import Service from '../component/Service/Service';
 import banner from "../Images/person.png"
 import "../Style/Home.css"
@@ -42,7 +43,7 @@ const Home = () => {
             </div>
 
             <div className="client-review my-5">
-                <h3 className='my-5 fw-bold text-primary text-center'>PEOPLE REVIEWS..!</h3>
+                <h3 className='my-5 fw-bold text-primary text-center'>https://yoga-master-web-service.web.app/</h3>
                 <div className="container">
                     <ClientReview></ClientReview>
                 </div>
