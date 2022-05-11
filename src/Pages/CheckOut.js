@@ -31,7 +31,7 @@ const CheckOut = () => {
             </div>
 
             <div className="client-review my-5">
-                <h3 className='my-5 fw-bold text-primary text-center'>PEOPLE REVIEW..!</h3>
+                <h3 className='my-5 fw-bold text-primary text-center'>PEOPLES REVIEW..!</h3>
                 <div className="container">
                     <ClientReview></ClientReview>
                 </div>

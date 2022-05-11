@@ -12,22 +12,22 @@ const Footer = () => {
     <div className="text-center footer">
       <div className="d-flex mb-3">
         <button className="btn p-1 rounded-pill me-2 bt-social">
-          <a href="" target="_blank">
+          <a href="https://www.facebook.com/kader.goni35" target="_blank">
             <FiFacebook></FiFacebook>
           </a>
         </button>
         <button className="btn p-1 rounded-pill mx-2 bt-social">
-          <a href="">
+          <a href="tel:01782269384">
             <BsChatDotsFill></BsChatDotsFill>
           </a>
         </button>
         <button className="btn p-1 rounded-pill mx-2 bt-social">
-          <a href="" target="_blank">
+          <a href="https://twitter.com/kader_goni" target="_blank">
             <BsTwitter></BsTwitter>
           </a>
         </button>
         <button className="btn p-1 rounded-pill mx-2 bt-social">
-          <a href="" target="_blank">
+          <a href="https://www.instagram.com/kader.goni35/" target="_blank">
             <BsInstagram></BsInstagram>
           </a>
         </button>

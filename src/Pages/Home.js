@@ -43,7 +43,7 @@ const Home = () => {
             </div>
 
             <div className="client-review my-5">
-                <h3 className='my-5 fw-bold text-primary text-center'>https://yoga-master-web-service.web.app/</h3>
+                <h3 className='my-5 fw-bold text-primary text-center'>PEOPLES REVIEW..!</h3>
                 <div className="container">
                     <ClientReview></ClientReview>
                 </div>
