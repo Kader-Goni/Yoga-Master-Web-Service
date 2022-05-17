@@ -64,7 +64,7 @@ const Login = () => {
                 <span style={{color: 'red'}}>{error}</span>
                 <div className="btn-item">
                     <button className='login-btn btn'>Login</button>
-                    <p>New to Gymnasium? <Link className='signup-link' to='/signup'>Create New Account</Link> </p>
+                    <p>New to Yoga Master? <Link className='signup-link' to='/signup'>Create New Account</Link> </p>
                 </div>
                 <div className="or-item">
                     <div className="item"></div>
